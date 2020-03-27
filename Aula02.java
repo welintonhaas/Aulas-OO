@@ -15,7 +15,7 @@ public class Aula02{
 
         c2.cor ="Vermelha";
         c1.ponta = 0.1f;
-        c2.tampada = false;
+        c2.tampada = false; 
 
         c2.status();
         c2.rabiscar();
