@@ -1,8 +1,8 @@
-
+package Caneta;
 public class Aula02{
 
-    public static void main(String[] args) {
-        Caneta c1 = new Caneta();
+    public static void main(final String[] args) {
+        final Caneta c1 = new Caneta();
 
         c1.cor = "Azul";
         c1.ponta = 0.5f;
@@ -11,7 +11,7 @@ public class Aula02{
 
         c1.rabiscar();
 
-        Caneta c2 = new Caneta();
+        final Caneta c2 = new Caneta();
 
         c2.cor ="Vermelha";
         c1.ponta = 0.1f;
